@@ -1,0 +1,366 @@
+body{
+  background-color:rgb(0, 0, 33);
+  color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: whitesmoke};
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100x;
+  background-color:rgb(18, 18, 62);
+
+}
+.firstsection{
+  display: flex;
+  justify-content:space-around;
+  margin: 80px , 0;
+align-items:self-start;  
+}
+  .firstsection div{
+    width: 30%;
+  }
+  .leftsection{
+    text-align:center;
+    align-items:last baseline;
+    margin: 90PX, 0;
+    height: 100px;
+    align-content: center;
+    align-content: space-between;
+    font-family: 'Poppins', sans-serif;
+font-size: 3rem;
+  }
+ 
+
+  .rightsection{
+    margin: 1cap;
+    padding:0%;
+
+    width: 300px; /* Set the width of the image */
+    height: 150; /* Maintain aspect ratio */
+  
+    margin-right: 150px;
+  }
+  .rightsection img {
+    max-width: 130%; /* Ensure the image doesn't exceed its container */
+   max-height: fit-content;
+   mask-image: none;
+   border-spacing: 0cap;
+}
+  .ligo{
+    max-width: 0px;
+    background-color: yellowgreen;
+  }
+   
+
+  
+nav ul{
+  display: flex;
+justify-content: center;
+
+
+}
+nav ul li{
+  list-style: none;
+  margin: 0 23px ;
+  background-color: black;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  color: aliceblue;
+} 
+nav ul li a:hover{
+  color: darkcyan;
+  font-size: 1.03rem
+
+}
+.left{
+  font-size: 1rem;
+}
+.ityped{
+  color:teal;
+  text-size-adjust: 40%;
+ text-emphasis: none;
+  font-family: 'Poppins', sans-serif;
+}
+/* CSS for the Contact Section */
+.contact-section {
+  background-color:rgb(0, 0, 33);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color:whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-form {
+      padding: 10px;
+  }
+}
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #555;
+}
+.social-links {
+  text-align: center; /* Center-align the social media icons */
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block; /* Display the icons as inline blocks */
+  margin: 10px; /* Add spacing between icons */
+}
+
+.social-links img {
+  max-width: 40px; /* Set the maximum width for the icons */
+  height: auto; /* Maintain the original aspect ratio */
+}
+/* Projects Section Styles *//* Add your CSS styles for the project page here */
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.project {
+  display: flex;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+/* Add CSS styles for the project page */
+
+.about-me-section h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+  color:olive;
+ width:fit-content; /* Set the width of the box */
+    height: 50px; /* Set the height of the box */
+    border: 2px solid #000; /* Add a black border around the box */
+    
+
+}
+
+
+
+/* Style for work experience and education lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for individual work experience and education items */
+ul li {
+  color: aqua;
+  margin-bottom: 30px;
+}
+
+/* Style for work experience and education item headings */
+ul li h4 {
+  font-size: 18px;
+  color: #007bff; /* Blue color for headings */
+  margin: 0;
+}
+
+/* Style for date spans */
+.date {
+  color: #777;
+}
+
+/* Style for descriptions of work experience and education */
+ul li p {
+  font-size: 16px;
+  color:teal;
+}
+
+/* Style for skills and expertise */
+.skills-expertise ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Style for individual skill and expertise items */
+.skills-expertise ul li {
+  font-size: 30px;
+  color: #555;
+  margin-bottom: 10px;
+}
+/* Add CSS styles for the project card */
+/* CSS for project cards */
+/* Reset some default styles for the entire page */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.project-card {
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  display: flex;
+color: red;
+}
+
+.card img {
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-details {
+  padding: 20px;
+}
+.card h1 {
+
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.card h2 {
+ 
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color:red;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card strong {
+  font-weight: bold;
+}
+
+.card a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.card a:hover {
+  background-color: #0056b3;
+}
